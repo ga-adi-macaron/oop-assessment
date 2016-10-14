@@ -1,7 +1,7 @@
 ---
 title: OOP Assessment
-type: lab
-duration: "1:25"
+type: Homework
+duration: "1:30"
 creator:
     name: Drew Mahrt
     city: NYC
@@ -13,7 +13,7 @@ creator:
 
 > ***Note:*** _This should be done independently._
 
-The goal of this lab is to test your knowledge of Object Oriented Programming concepts and to make sure you know how to implement them.  
+The goal of this assignment is to test your knowledge of Object Oriented Programming concepts and to make sure you know how to implement them.  
 
 There are two main components:
 
