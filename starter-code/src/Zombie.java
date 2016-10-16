@@ -5,6 +5,18 @@
 //TODO: Make Skeleton a subclass of monster, and implement the aboutMe method.
 //Example output of the aboutMe method: "I am a Zombie with 4 health and do 10 damage!"
 
-public class Zombie{
+public class Zombie extends Monster{
+    private String name = "Zombie";
 
+    public Zombie(int hp, int damage) {
+        super(hp, damage);
+    }
+
+    @Override
+    public String aboutMe() {
+        return String.format("I am a %s with %s health and %s attack power", name, getHP(), getAttack());
+    }
+    public String getName() {
+        return name;
+    }
 }
