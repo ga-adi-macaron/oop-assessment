@@ -1,5 +1,6 @@
 1. Describe the difference between a Class and an Object.
 
+A: Class is a template of which an Object instantiate from. 
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
   a. implements
@@ -7,21 +8,28 @@
   c. uses
   d. sub
 
+A: extends
 
 3. Describe the difference between public and private?
 
+A: Public is accessible across all files and classes as long as the class is implemented. Private can only be access by its own class.
 
 4. Can a subclass access a private method of its parent class? (choose one)
   a. Yes
   b. No
 
+A: No
 
 5. Define the term constructor.
 
+A: Constructor is a "method" that is used to instantiate an Object with the arguements that are passed along. 
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
   a. Yes
   b. No
 
+A: Yes, the logic behind static method is to have it accessible from all classes and prevent the program/developer from creating more than one instance . 
 
 7. Describe the purpose of overriding a method.
+
+The purpose of override is to have the method execute only the current subclass implementation.
