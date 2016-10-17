@@ -1,27 +1,40 @@
 1. Describe the difference between a Class and an Object.
 
+A class is static code that doesn't change during the execution of a progra, whereas an object is an instance of a class. Each object must belong to a class, and is therefore dependent on a class in order to be functional.
+
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
   a. implements
   b. extends
   c. uses
   d. sub
+  
+  B - extends
 
 
 3. Describe the difference between public and private?
+
+Public code can be utilized by everything within a package, whereas Private code can only be accessed inside its class.
 
 
 4. Can a subclass access a private method of its parent class? (choose one)
   a. Yes
   b. No
+  
+  B- no
 
 
 5. Define the term constructor.
+
+Constructors are used to create an instance of a class.
 
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
   a. Yes
   b. No
-
+  
+A- yes
 
 7. Describe the purpose of overriding a method.
+
+Overriding a method allows a class to inherit behaviors from a superclass, and alter its behavior as-needed.
