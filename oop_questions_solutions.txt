@@ -1,0 +1,34 @@
+1. Describe the difference between a Class and an Object.
+
+A Class is a type, and provides a blueprint for what an object of that type will contain and be able to do. An Object is a specific instance of a Class that lives in memoryand has the type of the Class it belongs to.
+
+
+2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
+  a. implements
+  b. extends <<<================
+  c. uses
+  d. sub
+
+
+3. Describe the difference between public and private?
+
+Variables and methods with the "public" modifier are visible and accessible to all code in every scope anywhere in the program. Variables and methods with the "private" modifier are only visible and accessible to code within the same Class where they reside. Code from other classes and scopes cannot access them.
+
+4. Can a subclass access a private method of its parent class? (choose one)
+  a. Yes
+  b. No <<<============ Even though an object of a subclass inherits from the parent class, the code in the subclass still cannot access variables and methods declared as private in the parent class.
+
+
+5. Define the term constructor.
+
+A constructor is a special method that creates and sets up a new instance of a class, and returns that instance as an object whose type is the class the constructor is from. The constructor's name must exactly match the name of it's class.
+
+
+6. Can you access a static method of a class without making an instance of it? (choose one)
+  a. Yes <<<=============
+  b. No
+
+
+7. Describe the purpose of overriding a method.
+
+A subclass inherits all non-private methods declared in its parent class. If the parent class marked the method as "abstract" and did not provide an impleentation (meaning the parent is an abstract class) then the subclass must override the method to provide an implementation. If the parent class does provide an implementation of the method, the subclass can simply rely on that, or optionally can provide a new, different implementation of the method by overriding it. Overriding allows you to provide a new implementation of a method that has already been declared elsewhere.
