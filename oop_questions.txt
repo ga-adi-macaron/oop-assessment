@@ -1,5 +1,6 @@
 1. Describe the difference between a Class and an Object.
 
+A Class contains member variables, properties, methods and perhaps a constructor method that are used to describe an Object.
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
   a. implements
@@ -7,21 +8,30 @@
   c. uses
   d. sub
 
+b. extends
+
 
 3. Describe the difference between public and private?
 
+The difference is public is accessible within and outside a Class and private is only accessible within its own Class.
 
 4. Can a subclass access a private method of its parent class? (choose one)
   a. Yes
   b. No
 
+b. No
+
 
 5. Define the term constructor.
 
+Constructor is a method to instantiate an Object. 
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
   a. Yes
   b. No
 
+b. No
 
 7. Describe the purpose of overriding a method.
+
+To implement an abstract method from a parent Class to be defined in a child Class.
