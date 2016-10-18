@@ -1,5 +1,6 @@
 1. Describe the difference between a Class and an Object.
-
+An object is an instance of a class. Class is more like a blueprint for the objects to be created from it. 
+Objects are created by the initialization of classes. 
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
   a. implements
@@ -7,21 +8,32 @@
   c. uses
   d. sub
 
+  b.extends
+
 
 3. Describe the difference between public and private?
+
+Public means that whatever defined after this keyword is available to be read of modified from all other classes. As opposed to this; privates (variables for instance) can be only read and modified within the same class they are declared.
 
 
 4. Can a subclass access a private method of its parent class? (choose one)
   a. Yes
   b. No
 
+b.No
 
 5. Define the term constructor.
+
+Constructors are used to initialize the instances of classes (to create objects). Constructors are used to create new objects often with parameters specifying the initial state or other important information about the object
 
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
   a. Yes
   b. No
 
+  a. Yes
+
 
 7. Describe the purpose of overriding a method.
+
+Java is a OOP language that allows a subclass to provide a specific implementation of a method that is already provided by its superclass. The implementation in the subclass overrides the implementation in the superclass by providing a method that has the same name, parameters and return type. The version of the method that is executed will be determined by the object that is calling it. If an object of a parent class is used to call it; the version in the parent class will be executed; however; if an object in the subclass is used to call the method; the version in the child class will be executed.
