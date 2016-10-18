@@ -1,27 +1,27 @@
 1. Describe the difference between a Class and an Object.
 
+A Class is a blueprint for an Object; it is the type of the Object. An Object itself is a unique instantiated product of a Class.
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
-  a. implements
-  b. extends
-  c. uses
-  d. sub
 
+  b. extends
 
 3. Describe the difference between public and private?
 
+A private access modifier makes a method or variable that it is affecting only accessible/seen from within the Class that it is declared. On the other hand, a variable or method can be affected/accessed from any other class if it has a public access modifier.
 
 4. Can a subclass access a private method of its parent class? (choose one)
-  a. Yes
-  b. No
 
+  b. No
 
 5. Define the term constructor.
 
+A constructor is a method within a Class of the same name that instantiates an object of that Class.
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
-  a. Yes
-  b. No
-
+ 
+ a. Yes
 
 7. Describe the purpose of overriding a method.
+
+If a method has the same name in both a superclass and subclass, that method can be overriden by the subclass to run instead of the one that is in the superclass. The override method in the lowest heirarchy of a class tree(The most specialized subclass) for an object is the one that is executed. The reason for using override methods is to have different code executed for different subclasses without having to assign different names to the methods that run them.
